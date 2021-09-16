@@ -43,3 +43,6 @@ nav {
     color: #800000;
     transition: all 1s;
 }
+.fa {
+    padding: 5px;
+}
