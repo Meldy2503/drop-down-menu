@@ -42,7 +42,31 @@ nav {
 .one a:hover {
     color: #800000;
     transition: all 1s;
+    background-color: #20b2aa;
+    padding: 7px;
+    border-radius: 10px;
 }
-.fa {
+.one .fa {
     padding: 5px;
 }
+.sub1 {
+    display: none;
+}
+.one:hover .sub1 {
+    display: block;
+    position: absolute;
+    background: #1c5a4d;;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.one:hover .sub1-menu {
+    width: 150px;
+    list-style: none;
+    display: block;
+    margin: 10px;
+}
+.one:hover .sub1-menu li {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e6e6fa;
+}   
