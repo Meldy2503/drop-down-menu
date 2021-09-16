@@ -39,7 +39,7 @@ nav {
     text-decoration: none;
     color: #e6e6fa;
 }
-.one :hover {
+.one a:hover {
     color: #800000;
     transition: all 1s;
 }
