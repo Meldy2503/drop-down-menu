@@ -22,3 +22,16 @@ nav {
     color: #e6e6fa ;
     text-align: center;
 }
+.menu-options {
+    display: inline-flex;
+    list-style: none;
+}
+.one {
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+}
+.one:hover {
+    background-color: #20b2aa;
+    border-radius: 20px;
+}
