@@ -35,3 +35,11 @@ nav {
     background-color: #20b2aa;
     border-radius: 20px;
 }
+.one a {
+    text-decoration: none;
+    color: #e6e6fa;
+}
+.one :hover {
+    color: #800000;
+    transition: all 1s;
+}
