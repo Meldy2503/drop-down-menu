@@ -41,9 +41,9 @@ nav {
 }
 .one a:hover {
     color: #800000;
-    transition: all 1s linear;
+    transition: all 0.2s linear;
     background-color: #20b2aa;
-    padding: 7px;
+    padding: 2px;
     border-radius: 10px;
 }
   .one:after {
@@ -61,7 +61,7 @@ nav {
     margin-left: -10px;
 }
 .one:hover .sub1-menu {
-    width: 150px;
+    width: 190px;
     list-style: none;
     display: block;
     margin: 10px;    
@@ -78,8 +78,8 @@ nav {
     display: block;
     position: absolute;
     background: #1c5a4d;
-    margin-top: -32px;
-    margin-left: 150px;
+    margin-top: -30px;
+    margin-left: 180px;
 }
 i.fas,
 i.fab {
