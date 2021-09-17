@@ -41,14 +41,15 @@ nav {
 }
 .one a:hover {
     color: #800000;
-    transition: all 1s;
+    transition: all 1s linear;
     background-color: #20b2aa;
     padding: 7px;
     border-radius: 10px;
 }
-.one .fa {
-    padding: 5px;
-}
+  .one:after {
+    font-family: "Font Awsome 5 Free";
+    font-weight: 900;
+} 
 .sub1 {
     display: none;
 }
@@ -63,10 +64,39 @@ nav {
     width: 150px;
     list-style: none;
     display: block;
-    margin: 10px;
+    margin: 10px;    
 }
 .one:hover .sub1-menu li {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid #e6e6fa;
-}   
+}
+.sub2 {
+    display: none;
+}
+.two:hover .sub2 {
+    display: block;
+    position: absolute;
+    background: #1c5a4d;
+    margin-top: -32px;
+    margin-left: 150px;
+}
+i.fas,
+i.fab {
+      padding: 8px;
+}  
+.fa-angle-right {
+    float: right;
+}
+    
+.two:hover .sub2-menu {
+    width: 180px;
+    list-style: none;
+    display: block;
+}
+.two:hover .sub2-menu li {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e6e6fa;
+}  
+
